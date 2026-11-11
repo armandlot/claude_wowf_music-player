@@ -1,0 +1,16 @@
+## Interface: 16001
+## Title: Forever Music Player
+## Notes: Control your music app (Spotify, Deezer, Apple Music, YouTube Music) from the game. The game music is muted while you listen and restored when you stop. Needs the free companion app.
+## Notes-frFR: Pilotez votre application de musique (Spotify, Deezer, Apple Music, YouTube Music) depuis le jeu. La musique du jeu est coupée pendant l'écoute puis rétablie à l'arrêt. Nécessite le programme compagnon gratuit.
+## Author: armandlot
+## Version: 0.1.0
+## SavedVariables: ForeverMusicPlayerDB
+## IconTexture: Interface\AddOns\ForeverMusicPlayer\Media\icon
+## AddonCompartmentFunc: ForeverMusicPlayer_OnAddonCompartmentClick
+
+Locales.lua
+Protocol.lua
+Core.lua
+Audio.lua
+Beacon.lua
+UI.lua

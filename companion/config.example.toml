@@ -1,0 +1,41 @@
+# Réglages facultatifs du compagnon.
+# Pour t'en servir : copie ce fichier sous le nom "config.toml" dans ce même
+# dossier, puis modifie seulement les lignes dont tu as besoin.
+# Sans fichier config.toml, les valeurs ci-dessous s'appliquent déjà.
+
+# Ouvrir la plateforme quand tu appuies sur lecture en jeu et qu'elle n'est
+# pas lancée. Attention : la fenêtre ouverte passe devant le jeu.
+auto_launch = true
+
+# Secondes entre deux lectures de la balise quand elle est visible.
+interval = 0.05
+
+# Pour chaque plateforme :
+#   apps      : morceaux de texte (en minuscules) qui identifient l'application.
+#               "run.bat --list" affiche l'identifiant exact de chaque
+#               application ouverte.
+#   processes : nom du programme dans le mélangeur de volume de Windows.
+#   launch    : lien ou adresse à ouvrir si la plateforme n'est pas lancée.
+#               Laisse vide ("") pour ne jamais rien ouvrir.
+# Si l'application d'une plateforme n'est pas ouverte, le compagnon pilote
+# le navigateur web (lecteur web de la plateforme).
+
+[platforms.spotify]
+apps = ["spotify"]
+processes = ["Spotify.exe"]
+launch = "spotify:"
+
+[platforms.deezer]
+apps = ["deezer"]
+processes = ["Deezer.exe"]
+launch = "https://www.deezer.com/"
+
+[platforms.apple]
+apps = ["applemusic", "apple music", "itunes"]
+processes = ["AppleMusic.exe", "iTunes.exe"]
+launch = "https://music.apple.com/"
+
+[platforms.youtube]
+apps = ["youtube music", "youtubemusic", "ytmusic", "cinhimbnkkaeohfgghhklpknlkffjgod"]
+processes = ["YouTube Music.exe"]
+launch = "https://music.youtube.com/"

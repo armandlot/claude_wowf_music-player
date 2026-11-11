@@ -1,0 +1,26 @@
+<!-- Key bindings, listed in Options > Keybindings > AddOns.
+     The game loads this file by itself: it must not be listed in the .toc.
+     The displayed names are the BINDING_NAME_... globals set in Locales.lua. -->
+<Bindings>
+    <Binding name="FOREVERMUSICPLAYER_TOGGLEWINDOW" header="FOREVERMUSICPLAYER" category="ADDONS">
+        ForeverMusicPlayer.ToggleWindow()
+    </Binding>
+    <Binding name="FOREVERMUSICPLAYER_PLAYPAUSE" category="ADDONS">
+        ForeverMusicPlayer.Toggle()
+    </Binding>
+    <Binding name="FOREVERMUSICPLAYER_STOP" category="ADDONS">
+        ForeverMusicPlayer.Stop()
+    </Binding>
+    <Binding name="FOREVERMUSICPLAYER_NEXT" category="ADDONS">
+        ForeverMusicPlayer.Next()
+    </Binding>
+    <Binding name="FOREVERMUSICPLAYER_PREVIOUS" category="ADDONS">
+        ForeverMusicPlayer.Previous()
+    </Binding>
+    <Binding name="FOREVERMUSICPLAYER_VOLUMEUP" category="ADDONS">
+        ForeverMusicPlayer.VolumeUp()
+    </Binding>
+    <Binding name="FOREVERMUSICPLAYER_VOLUMEDOWN" category="ADDONS">
+        ForeverMusicPlayer.VolumeDown()
+    </Binding>
+</Bindings>
